@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.jamsh.ninjalearning1.MenuforPractice">
+
+
+    <ImageView
+        android:id="@+id/menuforpractice"
+        android:scaleType="fitXY"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/practicemenu"
+        />
+
+
+    <ImageView
+        android:id="@+id/soundonpractice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:onClick="change_the_sound_icon_3"
+        />
+
+
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_height="300dp"
+        android:layout_width="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp">
+
+
+        <ImageView
+            android:id = "@+id/waving1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/waving"
+            android:onClick="check2"
+            android:layout_weight="1"
+            />
+
+
+        <ImageView
+            android:id = "@+id/clapping1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/clapping"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:id = "@+id/handshake1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/handshake"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+</RelativeLayout>

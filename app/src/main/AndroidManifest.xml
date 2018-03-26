@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jamsh.ninjalearning1">
+
+    <application
+        android:name=".ClassContainingboolean"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/SplashActivitytheme" />
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="landscape"
+            android:theme="@style/SplashActivitytheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WavingActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/SplashActivitytheme" />
+        <activity
+            android:name=".MainMenu"
+            android:screenOrientation="landscape"
+            android:theme="@style/SplashActivitytheme" />
+
+        <service android:name=".MusicRunningService" />
+
+        <activity
+            android:name=".MenuForlearn"
+            android:screenOrientation="landscape"
+            android:theme="@style/SplashActivitytheme" />
+        <activity
+            android:name=".MenuFortest"
+            android:screenOrientation="landscape"
+            android:theme="@style/SplashActivitytheme" />
+        <activity
+            android:name=".MenuforPractice"
+            android:screenOrientation="landscape"
+            android:theme="@style/SplashActivitytheme" />
+        <activity
+            android:name=".PracticeActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/SplashActivitytheme" />
+        <activity
+            android:name=".TestActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/SplashActivitytheme"
+            >
+
+        </activity>
+        <activity android:name=".feedBackscreen"
+            android:screenOrientation="landscape"
+            android:theme="@style/SplashActivitytheme"
+            ></activity>
+    </application>
+
+</manifest>

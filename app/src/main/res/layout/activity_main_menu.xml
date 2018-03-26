@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.jamsh.ninjalearning1.MainMenu">
+
+
+    <ImageView
+        android:id="@+id/mainmenubackground"
+        android:scaleType="fitXY"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/mainmen"
+        />
+
+
+    <ImageView
+        android:id="@+id/setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/set"
+        android:onClick="wargya"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:onClick="change_the_sound_icon"
+        />
+
+
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_height="300dp"
+        android:layout_width="300dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="30dp">
+
+    <ImageView
+        android:id = "@+id/learn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/lea"
+        android:onClick="check2"
+        android:layout_weight="1"
+        />
+
+
+    <ImageView
+        android:id = "@+id/practice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pract"
+        android:onClick="check3"
+        android:layout_weight="1"
+        />
+
+    <ImageView
+        android:id = "@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tes"
+        android:onClick="check4"
+        android:layout_weight="1"
+
+
+        />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

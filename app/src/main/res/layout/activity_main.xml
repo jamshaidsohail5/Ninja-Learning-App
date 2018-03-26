@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.jamsh.ninjalearning1.MainActivity"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/myimage"
+        android:scaleType="fitXY"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/colorblue"
+        />
+
+    <ImageView
+        android:id="@+id/crossicon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/cross"
+        />
+
+
+    <ImageButton
+        android:id="@+id/color1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue1"
+        android:layout_marginTop="127dp"
+        android:layout_marginLeft="40dp"
+        android:onClick="change_to_blue"
+
+        />
+
+
+    <ImageButton
+        android:id="@+id/color2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pink2"
+        android:layout_marginTop="127dp"
+        android:layout_marginLeft="150dp"
+        android:onClick="change_to_pink"
+        />
+
+    <ImageButton
+        android:id="@+id/color3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/red2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="127dp"
+        android:layout_marginRight="35dp"
+        android:onClick="change_to_red"
+        />
+</RelativeLayout>

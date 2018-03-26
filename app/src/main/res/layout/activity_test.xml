@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.jamsh.ninjalearning1.TestActivity">
+
+
+    <VideoView
+        android:id="@+id/vid1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+
+
+
+    <ImageView
+        android:id = "@+id/repeat"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/referesh"
+        android:onClick="check1"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_height="300dp"
+        android:layout_width="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id = "@+id/clap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/clap"
+            android:onClick="check2"
+            android:layout_weight="1"
+            />
+
+
+        <ImageView
+            android:id = "@+id/hand"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/hand"
+            android:onClick="check2"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:id = "@+id/wav"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/wav"
+            android:onClick="check3"
+            android:layout_weight="1"
+
+
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
